@@ -45,8 +45,8 @@ def fractions2(precision, x, y):
 
 
 def test_fractions2():
-    g1 = ContextGenerator(fractions2(precision=2, x=1, y=3))
-    g2 = ContextGenerator(fractions2(precision=4, x=2, y=3))
+    g1 = ContextGenerator(fractions(precision=2, x=1, y=3))
+    g2 = ContextGenerator(fractions(precision=4, x=2, y=3))
     items = list(zip(g1, g2))
     items = [str(y) for x in items for y in x]
     print("frac2:", items)

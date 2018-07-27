@@ -31,7 +31,7 @@ class ContextGenerator:
         return self
 
 
-def test():
+def failed_example():
     g = gen()
     # g = ContextGenerator(gen())
 
